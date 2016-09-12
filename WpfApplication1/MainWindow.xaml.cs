@@ -70,6 +70,7 @@ namespace WpfApplication1
             string directoryImageFileName = directoryImageFolderPath + @"\" + id + @".png" ;
             string rawImageFileName = rawImageFolderPath + @"\" + getRawImageFileName(id);
 
+
             if (File.Exists(rawImageFileName))
             {
                 List<String> files = new List<String>();
