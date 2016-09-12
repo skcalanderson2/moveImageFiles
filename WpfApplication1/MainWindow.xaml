@@ -1,0 +1,18 @@
+﻿<Window x:Name="Picture_Transferer" x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication1"
+        mc:Ignorable="d"
+        Title="Picture Transferer" Height="371.333" Width="406.333">
+    <Grid>
+        <Button x:Name="button" Content="Select Raw Image Folder" HorizontalAlignment="Left" Margin="34,48,0,0" VerticalAlignment="Top" Width="136" Click="getRawImageFolder_Click"/>
+        <TextBox x:Name="txtRawImageFolder" HorizontalAlignment="Left" Height="33" Margin="10,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="370"/>
+        <TextBox x:Name="txtDirectoryImageFolder" HorizontalAlignment="Left" Height="33" Margin="10,79,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="370"/>
+        <Button x:Name="button_Copy" Content="Select Directory Image Folder" HorizontalAlignment="Left" Margin="34,117,0,0" VerticalAlignment="Top" Width="164" Click="getDirectoryImageFolder_Click"/>
+        <Button x:Name="button_Copy1" Content="Copy and Rename Images" HorizontalAlignment="Left" Margin="34,289,0,0" VerticalAlignment="Top" Width="164" Click="copy_and_rename_images_Click"/>
+        <ListBox x:Name="lbFileList" HorizontalAlignment="Left" Height="132" Margin="10,142,0,0" VerticalAlignment="Top" Width="214"/>
+
+    </Grid>
+</Window>
